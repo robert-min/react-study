@@ -1,4 +1,3 @@
-i
 
 function App() {
   return (
