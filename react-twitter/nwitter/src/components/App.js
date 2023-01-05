@@ -15,9 +15,9 @@ function App() {
       setInit(true)
     });
   }, [])
-  setInterval(() => {
-    console.log(authService.currentUser);
-  }, 2000)
+  // setInterval(() => {
+  //   console.log(authService.currentUser);
+  // }, 2000)
   return (
     <>
       {init ? <AppRouter isLoggedIn={isLoggedIn} /> : "Initial.."}
